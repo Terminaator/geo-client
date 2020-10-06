@@ -25,7 +25,7 @@ import java.io.IOException;
  * Component
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-10-06T14:15:06.398175800+03:00[Europe/Helsinki]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-10-06T14:54:39.839716700+03:00[Europe/Helsinki]")
 public class Component {
   @SerializedName("id")
   private String id = null;

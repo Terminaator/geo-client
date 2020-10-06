@@ -21,11 +21,12 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import io.swagger.v3.oas.annotations.media.Schema;
 import java.io.IOException;
+import java.math.BigDecimal;
 /**
  * AddressResponseDTO
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-10-06T14:15:06.398175800+03:00[Europe/Helsinki]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-10-06T14:54:39.839716700+03:00[Europe/Helsinki]")
 public class AddressResponseDTO {
   @SerializedName("id")
   private Integer id = null;
@@ -34,73 +35,73 @@ public class AddressResponseDTO {
   private Integer adrId = null;
 
   @SerializedName("koodaadress")
-  private Integer koodaadress = null;
+  private String koodaadress = null;
 
   @SerializedName("taisaadress")
-  private Integer taisaadress = null;
+  private String taisaadress = null;
 
   @SerializedName("lahiaadress")
-  private Integer lahiaadress = null;
+  private String lahiaadress = null;
 
   @SerializedName("tase1_id")
   private Integer tase1Id = null;
 
   @SerializedName("tase1_kood")
-  private Integer tase1Kood = null;
+  private String tase1Kood = null;
 
   @SerializedName("tase1_nimetus")
-  private Integer tase1Nimetus = null;
+  private String tase1Nimetus = null;
 
   @SerializedName("tase2_id")
   private Integer tase2Id = null;
 
   @SerializedName("tase2_kood")
-  private Integer tase2Kood = null;
+  private String tase2Kood = null;
 
   @SerializedName("tase2_nimetus")
-  private Integer tase2Nimetus = null;
+  private String tase2Nimetus = null;
 
   @SerializedName("tase3_id")
   private Integer tase3Id = null;
 
   @SerializedName("tase3_nimetus")
-  private Integer tase3Nimetus = null;
+  private String tase3Nimetus = null;
 
   @SerializedName("tase4_id")
   private Integer tase4Id = null;
 
   @SerializedName("tase4_nimetus")
-  private Integer tase4Nimetus = null;
+  private String tase4Nimetus = null;
 
   @SerializedName("tase5_id")
   private Integer tase5Id = null;
 
   @SerializedName("tase5_nimetus")
-  private Integer tase5Nimetus = null;
+  private String tase5Nimetus = null;
 
   @SerializedName("tase6_id")
   private Integer tase6Id = null;
 
   @SerializedName("tase6_nimetus")
-  private Integer tase6Nimetus = null;
+  private String tase6Nimetus = null;
 
   @SerializedName("tase7_id")
   private Integer tase7Id = null;
 
   @SerializedName("tase7_nimetus")
-  private Integer tase7Nimetus = null;
+  private String tase7Nimetus = null;
 
   @SerializedName("tase8_id")
   private Integer tase8Id = null;
 
   @SerializedName("tase8_nimetus")
-  private Integer tase8Nimetus = null;
+  private String tase8Nimetus = null;
 
   @SerializedName("koord_x")
-  private Integer koordX = null;
+  private BigDecimal koordX = null;
 
   @SerializedName("koord_y")
-  private Integer koordY = null;
+  private BigDecimal koordY = null;
 
   public AddressResponseDTO id(Integer id) {
     this.id = id;
@@ -138,7 +139,7 @@ public class AddressResponseDTO {
     this.adrId = adrId;
   }
 
-  public AddressResponseDTO koodaadress(Integer koodaadress) {
+  public AddressResponseDTO koodaadress(String koodaadress) {
     this.koodaadress = koodaadress;
     return this;
   }
@@ -148,15 +149,15 @@ public class AddressResponseDTO {
    * @return koodaadress
   **/
   @Schema(description = "")
-  public Integer getKoodaadress() {
+  public String getKoodaadress() {
     return koodaadress;
   }
 
-  public void setKoodaadress(Integer koodaadress) {
+  public void setKoodaadress(String koodaadress) {
     this.koodaadress = koodaadress;
   }
 
-  public AddressResponseDTO taisaadress(Integer taisaadress) {
+  public AddressResponseDTO taisaadress(String taisaadress) {
     this.taisaadress = taisaadress;
     return this;
   }
@@ -166,15 +167,15 @@ public class AddressResponseDTO {
    * @return taisaadress
   **/
   @Schema(description = "")
-  public Integer getTaisaadress() {
+  public String getTaisaadress() {
     return taisaadress;
   }
 
-  public void setTaisaadress(Integer taisaadress) {
+  public void setTaisaadress(String taisaadress) {
     this.taisaadress = taisaadress;
   }
 
-  public AddressResponseDTO lahiaadress(Integer lahiaadress) {
+  public AddressResponseDTO lahiaadress(String lahiaadress) {
     this.lahiaadress = lahiaadress;
     return this;
   }
@@ -184,11 +185,11 @@ public class AddressResponseDTO {
    * @return lahiaadress
   **/
   @Schema(description = "")
-  public Integer getLahiaadress() {
+  public String getLahiaadress() {
     return lahiaadress;
   }
 
-  public void setLahiaadress(Integer lahiaadress) {
+  public void setLahiaadress(String lahiaadress) {
     this.lahiaadress = lahiaadress;
   }
 
@@ -210,7 +211,7 @@ public class AddressResponseDTO {
     this.tase1Id = tase1Id;
   }
 
-  public AddressResponseDTO tase1Kood(Integer tase1Kood) {
+  public AddressResponseDTO tase1Kood(String tase1Kood) {
     this.tase1Kood = tase1Kood;
     return this;
   }
@@ -220,15 +221,15 @@ public class AddressResponseDTO {
    * @return tase1Kood
   **/
   @Schema(description = "")
-  public Integer getTase1Kood() {
+  public String getTase1Kood() {
     return tase1Kood;
   }
 
-  public void setTase1Kood(Integer tase1Kood) {
+  public void setTase1Kood(String tase1Kood) {
     this.tase1Kood = tase1Kood;
   }
 
-  public AddressResponseDTO tase1Nimetus(Integer tase1Nimetus) {
+  public AddressResponseDTO tase1Nimetus(String tase1Nimetus) {
     this.tase1Nimetus = tase1Nimetus;
     return this;
   }
@@ -238,11 +239,11 @@ public class AddressResponseDTO {
    * @return tase1Nimetus
   **/
   @Schema(description = "")
-  public Integer getTase1Nimetus() {
+  public String getTase1Nimetus() {
     return tase1Nimetus;
   }
 
-  public void setTase1Nimetus(Integer tase1Nimetus) {
+  public void setTase1Nimetus(String tase1Nimetus) {
     this.tase1Nimetus = tase1Nimetus;
   }
 
@@ -264,7 +265,7 @@ public class AddressResponseDTO {
     this.tase2Id = tase2Id;
   }
 
-  public AddressResponseDTO tase2Kood(Integer tase2Kood) {
+  public AddressResponseDTO tase2Kood(String tase2Kood) {
     this.tase2Kood = tase2Kood;
     return this;
   }
@@ -274,15 +275,15 @@ public class AddressResponseDTO {
    * @return tase2Kood
   **/
   @Schema(description = "")
-  public Integer getTase2Kood() {
+  public String getTase2Kood() {
     return tase2Kood;
   }
 
-  public void setTase2Kood(Integer tase2Kood) {
+  public void setTase2Kood(String tase2Kood) {
     this.tase2Kood = tase2Kood;
   }
 
-  public AddressResponseDTO tase2Nimetus(Integer tase2Nimetus) {
+  public AddressResponseDTO tase2Nimetus(String tase2Nimetus) {
     this.tase2Nimetus = tase2Nimetus;
     return this;
   }
@@ -292,11 +293,11 @@ public class AddressResponseDTO {
    * @return tase2Nimetus
   **/
   @Schema(description = "")
-  public Integer getTase2Nimetus() {
+  public String getTase2Nimetus() {
     return tase2Nimetus;
   }
 
-  public void setTase2Nimetus(Integer tase2Nimetus) {
+  public void setTase2Nimetus(String tase2Nimetus) {
     this.tase2Nimetus = tase2Nimetus;
   }
 
@@ -318,7 +319,7 @@ public class AddressResponseDTO {
     this.tase3Id = tase3Id;
   }
 
-  public AddressResponseDTO tase3Nimetus(Integer tase3Nimetus) {
+  public AddressResponseDTO tase3Nimetus(String tase3Nimetus) {
     this.tase3Nimetus = tase3Nimetus;
     return this;
   }
@@ -328,11 +329,11 @@ public class AddressResponseDTO {
    * @return tase3Nimetus
   **/
   @Schema(description = "")
-  public Integer getTase3Nimetus() {
+  public String getTase3Nimetus() {
     return tase3Nimetus;
   }
 
-  public void setTase3Nimetus(Integer tase3Nimetus) {
+  public void setTase3Nimetus(String tase3Nimetus) {
     this.tase3Nimetus = tase3Nimetus;
   }
 
@@ -354,7 +355,7 @@ public class AddressResponseDTO {
     this.tase4Id = tase4Id;
   }
 
-  public AddressResponseDTO tase4Nimetus(Integer tase4Nimetus) {
+  public AddressResponseDTO tase4Nimetus(String tase4Nimetus) {
     this.tase4Nimetus = tase4Nimetus;
     return this;
   }
@@ -364,11 +365,11 @@ public class AddressResponseDTO {
    * @return tase4Nimetus
   **/
   @Schema(description = "")
-  public Integer getTase4Nimetus() {
+  public String getTase4Nimetus() {
     return tase4Nimetus;
   }
 
-  public void setTase4Nimetus(Integer tase4Nimetus) {
+  public void setTase4Nimetus(String tase4Nimetus) {
     this.tase4Nimetus = tase4Nimetus;
   }
 
@@ -390,7 +391,7 @@ public class AddressResponseDTO {
     this.tase5Id = tase5Id;
   }
 
-  public AddressResponseDTO tase5Nimetus(Integer tase5Nimetus) {
+  public AddressResponseDTO tase5Nimetus(String tase5Nimetus) {
     this.tase5Nimetus = tase5Nimetus;
     return this;
   }
@@ -400,11 +401,11 @@ public class AddressResponseDTO {
    * @return tase5Nimetus
   **/
   @Schema(description = "")
-  public Integer getTase5Nimetus() {
+  public String getTase5Nimetus() {
     return tase5Nimetus;
   }
 
-  public void setTase5Nimetus(Integer tase5Nimetus) {
+  public void setTase5Nimetus(String tase5Nimetus) {
     this.tase5Nimetus = tase5Nimetus;
   }
 
@@ -426,7 +427,7 @@ public class AddressResponseDTO {
     this.tase6Id = tase6Id;
   }
 
-  public AddressResponseDTO tase6Nimetus(Integer tase6Nimetus) {
+  public AddressResponseDTO tase6Nimetus(String tase6Nimetus) {
     this.tase6Nimetus = tase6Nimetus;
     return this;
   }
@@ -436,11 +437,11 @@ public class AddressResponseDTO {
    * @return tase6Nimetus
   **/
   @Schema(description = "")
-  public Integer getTase6Nimetus() {
+  public String getTase6Nimetus() {
     return tase6Nimetus;
   }
 
-  public void setTase6Nimetus(Integer tase6Nimetus) {
+  public void setTase6Nimetus(String tase6Nimetus) {
     this.tase6Nimetus = tase6Nimetus;
   }
 
@@ -462,7 +463,7 @@ public class AddressResponseDTO {
     this.tase7Id = tase7Id;
   }
 
-  public AddressResponseDTO tase7Nimetus(Integer tase7Nimetus) {
+  public AddressResponseDTO tase7Nimetus(String tase7Nimetus) {
     this.tase7Nimetus = tase7Nimetus;
     return this;
   }
@@ -472,11 +473,11 @@ public class AddressResponseDTO {
    * @return tase7Nimetus
   **/
   @Schema(description = "")
-  public Integer getTase7Nimetus() {
+  public String getTase7Nimetus() {
     return tase7Nimetus;
   }
 
-  public void setTase7Nimetus(Integer tase7Nimetus) {
+  public void setTase7Nimetus(String tase7Nimetus) {
     this.tase7Nimetus = tase7Nimetus;
   }
 
@@ -498,7 +499,7 @@ public class AddressResponseDTO {
     this.tase8Id = tase8Id;
   }
 
-  public AddressResponseDTO tase8Nimetus(Integer tase8Nimetus) {
+  public AddressResponseDTO tase8Nimetus(String tase8Nimetus) {
     this.tase8Nimetus = tase8Nimetus;
     return this;
   }
@@ -508,15 +509,15 @@ public class AddressResponseDTO {
    * @return tase8Nimetus
   **/
   @Schema(description = "")
-  public Integer getTase8Nimetus() {
+  public String getTase8Nimetus() {
     return tase8Nimetus;
   }
 
-  public void setTase8Nimetus(Integer tase8Nimetus) {
+  public void setTase8Nimetus(String tase8Nimetus) {
     this.tase8Nimetus = tase8Nimetus;
   }
 
-  public AddressResponseDTO koordX(Integer koordX) {
+  public AddressResponseDTO koordX(BigDecimal koordX) {
     this.koordX = koordX;
     return this;
   }
@@ -526,15 +527,15 @@ public class AddressResponseDTO {
    * @return koordX
   **/
   @Schema(description = "")
-  public Integer getKoordX() {
+  public BigDecimal getKoordX() {
     return koordX;
   }
 
-  public void setKoordX(Integer koordX) {
+  public void setKoordX(BigDecimal koordX) {
     this.koordX = koordX;
   }
 
-  public AddressResponseDTO koordY(Integer koordY) {
+  public AddressResponseDTO koordY(BigDecimal koordY) {
     this.koordY = koordY;
     return this;
   }
@@ -544,11 +545,11 @@ public class AddressResponseDTO {
    * @return koordY
   **/
   @Schema(description = "")
-  public Integer getKoordY() {
+  public BigDecimal getKoordY() {
     return koordY;
   }
 
-  public void setKoordY(Integer koordY) {
+  public void setKoordY(BigDecimal koordY) {
     this.koordY = koordY;
   }
 

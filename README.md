@@ -2,7 +2,7 @@
 
 Geoinfo
 - API version: 1.0.2
-  - Build date: 2020-10-06T14:15:06.398175800+03:00[Europe/Helsinki]
+  - Build date: 2020-10-06T14:54:39.839716700+03:00[Europe/Helsinki]
 
 Ehitisregistri geoteenused.   Kood asub: [https://git.mkm.ee/ehr/ehr-k8s-pipeline/ehr-geoservices](https://git.mkm.ee/ehr/ehr-k8s-pipeline/ehr-geoservices)
 
