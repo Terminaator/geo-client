@@ -1,0 +1,30 @@
+# AddressResponseDTO
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **Integer** |  |  [optional]
+**adrId** | **Integer** |  |  [optional]
+**koodaadress** | **Integer** |  |  [optional]
+**taisaadress** | **Integer** |  |  [optional]
+**lahiaadress** | **Integer** |  |  [optional]
+**tase1Id** | **Integer** |  |  [optional]
+**tase1Kood** | **Integer** |  |  [optional]
+**tase1Nimetus** | **Integer** |  |  [optional]
+**tase2Id** | **Integer** |  |  [optional]
+**tase2Kood** | **Integer** |  |  [optional]
+**tase2Nimetus** | **Integer** |  |  [optional]
+**tase3Id** | **Integer** |  |  [optional]
+**tase3Nimetus** | **Integer** |  |  [optional]
+**tase4Id** | **Integer** |  |  [optional]
+**tase4Nimetus** | **Integer** |  |  [optional]
+**tase5Id** | **Integer** |  |  [optional]
+**tase5Nimetus** | **Integer** |  |  [optional]
+**tase6Id** | **Integer** |  |  [optional]
+**tase6Nimetus** | **Integer** |  |  [optional]
+**tase7Id** | **Integer** |  |  [optional]
+**tase7Nimetus** | **Integer** |  |  [optional]
+**tase8Id** | **Integer** |  |  [optional]
+**tase8Nimetus** | **Integer** |  |  [optional]
+**koordX** | **Integer** |  |  [optional]
+**koordY** | **Integer** |  |  [optional]
